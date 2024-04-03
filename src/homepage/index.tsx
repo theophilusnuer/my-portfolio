@@ -11,7 +11,7 @@ export default function Homepage(){
     return(
         <>
         <Navbar/>
-        <Hero/>
+        <Hero/> 
         <Skills/>
         <Experience/>
         <Projects/>
