@@ -10,14 +10,30 @@ import express from "../../assets/Express.svg";
 import mongo from "../../assets/MongoDB.svg";
 import figma from "../../assets/Figma.svg";
 import jira from "../../assets/Jira.svg";
-import corel from "../../assets/coreldraw.svg";
-import comm from "../../assets/communication.png";
-import team from "../../assets/teamwork.svg";
-import present from "../../assets/presentation.png";
 
 
 
 const techskills:any = [
+    {
+        name: "React.js",
+        src: react,
+        style: "shadow-sky-600"
+    },
+    {
+        name: "Javascript",
+        src: javascript,
+        style: "shadow-yellow-500"
+    },
+    {
+        name: "Express.js",
+        src: express,
+        style: "shadow-gray-300"
+    },
+    {
+        name: "MongoDb",
+        src: mongo,
+        style: "shadow-green-700"
+    },
     {
         name: "CSS",
         src: css,
@@ -29,17 +45,12 @@ const techskills:any = [
         style: "shadow-orange-500"
     },
     {
-        name: "Javascript",
-        src: javascript,
-        style: "shadow-yellow-500"
-    },
-    {
-        name: "Tailwind CSS",
+        name: "Tailwind",
         src: tailwind,
         style: "shadow-sky-400"
     },
     {
-        name: "Material UI",
+        name: "MUI",
         src: material,
         style: "shadow-blue-600"
     },
@@ -49,49 +60,14 @@ const techskills:any = [
         style: "shadow-green-400"
     },
     {
-        name: "React.js",
-        src: react,
-        style: "shadow-sky-600"
-    },
-    {
         name: "Bootstrap",
         src: bootstrap,
         style: "shadow-purple-600"
     },
     {
-        name: "Express.js",
-        src: express,
-        style: "shadow-green-600"
-    },
-    {
-        name: "MongoDb",
-        src: mongo,
-        style: "shadow-green-700"
-    },
-    {
         name: "Figma",
         src: figma,
         style: "shadow-orange-500"
-    },
-    {
-        name: "CorelDraw",
-        src: corel,
-        style: "shadow-green-600"
-    },
-    {
-        name: "Communication",
-        src: comm,
-        style: "shadow-blue-400"
-    },
-    {
-        name: "TeamWork",
-        src: team,
-        style: "shadow-orange-500"
-    },
-    {
-        name: "Presentation",
-        src: present,
-        style: "shadow-gray-300"
     },
     {
         name: "Jira",
