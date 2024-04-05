@@ -9,9 +9,7 @@ export default function Navbar() {
             <a href="#theo" className="text-white mr-4 text-lg">Theo</a>
           </div>
           <div className="flex flex-wrap justify-end items-center">
-            <a href="#skills" className="text-white mx-2 my-1 sm:my-0">Skills</a>
-            <a href="#experience" className="text-white mx-2 my-1 sm:my-0">Experience</a>
-            <a href="#projects" className="text-white mx-2 my-1 sm:my-0">Projects</a>
+            <a href="#skills" className="text-white mx-4 my-1 sm:my-0 pr-4">Professional Development</a>
             <Contactsheet/>
           </div>
         </div>

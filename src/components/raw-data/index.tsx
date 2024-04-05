@@ -11,9 +11,7 @@ import mongo from "../../assets/MongoDB.svg";
 import figma from "../../assets/Figma.svg";
 import jira from "../../assets/Jira.svg";
 
-
-
-const techskills:any = [
+const techskills: any = [
     {
         name: "React.js",
         src: react,

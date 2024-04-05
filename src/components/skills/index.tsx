@@ -1,3 +1,5 @@
+import ExperienceList from "../experience-list"
+import ProjectList from "../project-list"
 import SkillList from "../skill-list"
 import { Button } from "../ui/button"
 import {
@@ -32,27 +34,14 @@ export default function Skills() {
           <SkillList />
         </Card>
       </TabsContent>
-      <TabsContent value="password">
-        <Card>
-          <CardHeader>
-            <CardTitle>Password</CardTitle>
-            <CardDescription>
-              Change your password here. After saving, you'll be logged out.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-2">
-            <div className="space-y-1">
-              <Label htmlFor="current">Current password</Label>
-              <Input id="current" type="password" />
-            </div>
-            <div className="space-y-1">
-              <Label htmlFor="new">New password</Label>
-              <Input id="new" type="password" />
-            </div>
-          </CardContent>
-          <CardFooter>
-            <Button>Save password</Button>
-          </CardFooter>
+      <TabsContent value="experience">
+        <Card className="flex justify-center bg-inherit border-none">
+          <ExperienceList/>
+        </Card>
+      </TabsContent>
+      <TabsContent value="projects">
+        <Card className="flex justify-center bg-inherit border-none">
+          <ProjectList/>
         </Card>
       </TabsContent>
     </Tabs>
