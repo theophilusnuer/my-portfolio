@@ -1,3 +1,4 @@
+import SkillList from "../skill-list"
 import { Button } from "../ui/button"
 import {
   Card,
@@ -22,35 +23,13 @@ export default function Skills(){
     return(
         <Tabs defaultValue="account" className="w-[1000px] mx-auto">
         <TabsList className="grid w-full grid-cols-3">
-          <TabsTrigger value="programming libraries">Programming Libraries</TabsTrigger>
-          <TabsTrigger value="programming languages">Programming Languages</TabsTrigger>
-          <TabsTrigger value="programming frameworks">Programming Frameworks</TabsTrigger>
-          <TabsTrigger value="project management">Project Management</TabsTrigger>
-          <TabsTrigger value="ui/ux">UI/UX</TabsTrigger>
-          <TabsTrigger value="satabase">Database</TabsTrigger>
-          <TabsTrigger value="soft skills">Soft Skills</TabsTrigger>
+          <TabsTrigger value="skills">Skills</TabsTrigger>
+          <TabsTrigger value="experience">Experience</TabsTrigger>
+          <TabsTrigger value="projects">Projects</TabsTrigger>
         </TabsList>
-        <TabsContent value="account">
-          <Card>
-            <CardHeader>
-              <CardTitle>Account</CardTitle>
-              <CardDescription>
-                Make changes to your account here. Click save when you're done.
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-2">
-              <div className="space-y-1">
-                <Label htmlFor="name">Name</Label>
-                <Input id="name" defaultValue="Pedro Duarte" />
-              </div>
-              <div className="space-y-1">
-                <Label htmlFor="username">Username</Label>
-                <Input id="username" defaultValue="@peduarte" />
-              </div>
-            </CardContent>
-            <CardFooter>
-              <Button>Save changes</Button>
-            </CardFooter>
+        <TabsContent value="skills">
+          <Card className="flex justify-center bg-inherit border-none">
+         <SkillList/>
           </Card>
         </TabsContent>
         <TabsContent value="password">

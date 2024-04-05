@@ -17,14 +17,14 @@ import present from "../../assets/presentation.png";
 
 
 
-const technologies = [
+const techskills:any = [
     {
-        name: "CSS3",
+        name: "CSS",
         src: css,
         style: "shadow-blue-500"
     },
     {
-        name: "HTML 5",
+        name: "HTML",
         src: html,
         style: "shadow-orange-500"
     },
@@ -98,5 +98,5 @@ const technologies = [
         src: jira,
         style: "shadow-sky-800"
     }
-]
-export default technologies;
+] as const
+export default techskills;
