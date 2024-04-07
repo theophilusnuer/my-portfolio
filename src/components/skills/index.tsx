@@ -24,23 +24,23 @@ import {
 export default function Skills() {
   return (
     <Tabs defaultValue="account" className="mx-auto">
-      <TabsList className="grid w-full grid-cols-1 sm:grid-cols-3">
+      <TabsList className="grid w-full grid-cols-2 text-black">
         <TabsTrigger value="skills">Skills</TabsTrigger>
         <TabsTrigger value="experience">Experience</TabsTrigger>
         <TabsTrigger value="projects">Projects</TabsTrigger>
       </TabsList>
       <TabsContent value="skills">
-        <Card className="flex justify-center bg-inherit border-none">
+        <Card className="flex justify-center bg-inherit border-none my-4">
           <SkillList />
         </Card>
       </TabsContent>
       <TabsContent value="experience">
-        <Card className="flex justify-center bg-inherit border-none">
+        <Card className="flex justify-center bg-inherit border-none my-4">
           <ExperienceList/>
         </Card>
       </TabsContent>
       <TabsContent value="projects">
-        <Card className="flex justify-center bg-inherit border-none">
+        <Card className="flex justify-center bg-inherit border-none my-4">
           <ProjectList/>
         </Card>
       </TabsContent>

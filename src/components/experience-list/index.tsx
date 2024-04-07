@@ -19,7 +19,7 @@ import experiences from "../raw-data/experience";
         {experiences.map(experience => (
           <CarouselItem key={experience} className="pl-1 md:basis-1/2 lg:basis-1/3">
             <div>
-              <Card className={`p-1 bg-inherit border-none ${experience.style}  hover:scale-110 transition-transform duration-300 ease-in-out`} style={{ margin: '10px' }}>
+              <Card className={`p-4 bg-inherit border-none ${experience.style}  hover:scale-110 transition-transform duration-300 ease-in-out`} style={{ margin: '10px',width: '200px', height: '250px' }}>
                 <CardContent className="flex aspect-square flex-col items-center justify-center p-6">
                  <img src={experience.logo} alt={experience.company} className="overflow-hidden"/>
                  <h2 className={`text-white font-semibold ${experience.style}` }text-center mt-1 >{experience.company}</h2>
