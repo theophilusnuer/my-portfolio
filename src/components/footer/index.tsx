@@ -11,7 +11,7 @@ export default function Footer() {
                     <SocialMediaIcons />
                 </div>
             </div>
-            <div className="container text-center text-white mx-auto mb-5 mt-2">
+            <div className="container text-center text-white mx-auto  mt-2">
                 <p className="pb-4 text-base sm:text-lg">Copyright &copy; {currentYear}. Theophilus Nuer. All rights reserved.</p>
             </div>
         </section>

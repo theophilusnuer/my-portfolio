@@ -23,10 +23,10 @@ import {
 
 export default function Skills() {
   return (
-    <Tabs defaultValue="account" className="mx-auto w-5/6">
+    <Tabs defaultValue="skills" className="mx-auto w-5/6">
       <TabsList className="grid w-full grid-cols-2 text-black">
-        <TabsTrigger value="skills">Skills</TabsTrigger>
-        <TabsTrigger value="experience">Experience</TabsTrigger>
+        <TabsTrigger value="skills" className="font-semibold text-lg">Skills</TabsTrigger>
+        <TabsTrigger value="experience" className="font-semibold text-lg">Experience</TabsTrigger>
         <TabsTrigger value="projects">Projects</TabsTrigger>
       </TabsList>
       <TabsContent value="skills">

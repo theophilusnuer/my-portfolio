@@ -14,7 +14,7 @@ export default function Hero() {
     <div className="w-full lg:w-1/2 flex flex-col lg:flex-row lg:gap-20 my-10 lg:ml-5 ml-4">
       <div className="flex flex-col lg:gap-5">
         <h1 className="text-4xl lg:text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Theophilus Nuer</span>
+         I'm Theophilus Nuer
         </h1>
         <h2 className="text-2xl lg:text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -24,7 +24,7 @@ export default function Hero() {
           />
         </h2>
         <p className="text-white text-base font-bodyFont leading-6 tracking-wide  mt-4 lg:mt-0 mr-4 lg:mr-0">
-          Results-driven Web Developer with a sales-oriented mindset, leveraging technical expertise to create exceptional user experiences. Strong collaborator with a passion for delivering results.
+          I am results-driven Web Developer with a sales-oriented mindset, leveraging technical expertise to create exceptional user experiences. Strong collaborator with a passion for delivering results.
         </p>
       </div>
     </div>
