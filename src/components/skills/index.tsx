@@ -23,7 +23,7 @@ import {
 
 export default function Skills() {
   return (
-    <Tabs defaultValue="account" className="mx-auto">
+    <Tabs defaultValue="account" className="mx-auto w-5/6">
       <TabsList className="grid w-full grid-cols-2 text-black">
         <TabsTrigger value="skills">Skills</TabsTrigger>
         <TabsTrigger value="experience">Experience</TabsTrigger>
