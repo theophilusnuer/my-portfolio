@@ -4,7 +4,7 @@ export default function ProjectList() {
     return (
         <div className="flex flex-wrap justify-center">
             {projects.map(project => (
-                <div key={project} className={`w-48 md:w-64 mx-2 mb-4 bg-inherit shadow-2xl rounded-lg flex flex-col ${project.style}`} >
+                <div key={project} className={`w-48 md:w-64 mx-2 mb-4 bg-inherit shadow-2xl  hover:scale-110 transition-transform duration-300 ease-in-out rounded-lg flex flex-col ${project.style}`} >
                     <div className="w-full h-[150px] overflow-hidden rounded-lg">
                         <img
                             className="w-full h-full object-contain group-hover:scale-110 duration-300 cursor-pointer rounded-lg"
