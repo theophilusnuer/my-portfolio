@@ -1,37 +1,31 @@
-import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
-  } from "../ui/carousel"
-  import {
-    Card,
-    CardContent,
-  } from "../ui/card"
 import projects from "../raw-data/projects";
 
-
-  export default function ProjectList() {
-    return(
-<Carousel className="w-2/4">
-      <CarouselContent className="-ml-1">
-        {projects.map(project => (
-          <CarouselItem key={project} className="pl-1 md:basis-1/2 lg:basis-1/3">
-            <div>
-              <Card className={`p-1 bg-inherit border-none ${project.style}  hover:scale-110 transition-transform duration-300 ease-in-out`} style={{ margin: '10px' }}>
-                <CardContent className="flex aspect-square flex-col items-center justify-center p-6">
-                 <img src={project.logo} alt={project.title} className=""/>
-                 <h2 className={`text-white font-semibold mt-3 ${project.style}` }text-center mt-1 >{project.title}</h2>
-                <h3 className="text-white">{project.description}</h3>
-                </CardContent>
-              </Card>
-            </div>
-          </CarouselItem>
-        ))}
-      </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel>
+export default function ProjectList() {
+    return (
+        <div className="flex flex-wrap justify-center">
+            {projects.map(project => (
+                <div key={project} className={`w-48 md:w-64 mx-2 mb-4 bg-inherit shadow-2xl rounded-lg flex flex-col ${project.style}`} >
+                    <div className="w-full h-[150px] overflow-hidden rounded-lg">
+                        <img
+                            className="w-full h-full object-contain group-hover:scale-110 duration-300 cursor-pointer rounded-lg"
+                            src={project.logo}
+                            alt="Image"
+                        />
+                    </div>
+                    <div className="w-full flex flex-col gap-2 p-2">
+                        <div>
+                            <div className="flex items-center justify-between">
+                                <h3 className="text-sm md:text-base uppercase text-amber-200 text-designColor font-normal">
+                                    {project.title}
+                                </h3>
+                            </div>
+                            <p className="text-xs md:text-sm tracking-wide mt-2 text-white hover:text-gray-100 duration-300">
+                                {project.description}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            ))}
+        </div>
     );
-  }
+}

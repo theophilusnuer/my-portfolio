@@ -14,7 +14,7 @@ export default function Hero() {
     <div className="w-full lg:w-1/2 flex flex-col lg:flex-row lg:gap-20 my-10 lg:ml-5 ml-4">
       <div className="flex flex-col lg:gap-5">
         <h1 className="text-4xl lg:text-6xl font-bold text-white">
-         I'm Theophilus Nuer
+         I'm Theophilus Nuer,
         </h1>
         <h2 className="text-2xl lg:text-4xl font-bold text-white">
           a <span>{text}</span>

@@ -13,6 +13,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "../ui/sheet"
+import SocialMediaIcons from "../socialmedia";
 
 export default function Contactsheet() {
   return (
@@ -52,6 +53,7 @@ export default function Contactsheet() {
             <Button className="bg-black" type="submit">Send a message</Button>
           </SheetClose>
         </SheetFooter>
+        <SocialMediaIcons/>
       </SheetContent>
     </Sheet>
   )
