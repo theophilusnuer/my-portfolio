@@ -19,7 +19,7 @@ export default function Contactsheet() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <div className="text-white hover:cursor-pointer" >Let's talk</div> 
+        <div className="text-black font-semibold p-2 hover:cursor-pointer bg-white rounded-lg" >Let's talk</div> 
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
