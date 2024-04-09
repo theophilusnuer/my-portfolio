@@ -10,20 +10,20 @@ export default function SocialMediaIcons(){
   return (
     <div className="flex">
       <div>
-      <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNsLZfqXchcbdwSDhrDmLCCxsBtJRgSWXQmkVwzlBcSvKPtmBMXFpNTJLkJtlcNvpjdsXB" target="_blank" rel="noopener noreferrer">
+      <a href={`https://mail.google.com/mail/u/0/#inbox?${process.env.REACT_APP_EMAIL}`} target="_blank" rel="noopener noreferrer">
         <img src={email} alt="email" />
       </a>
       </div>
-      <a href="www.linkedin.com/in/theophilus-nuer-0a2096220" target="_blank" rel="noopener noreferrer">
+      <a href={`www.linkedin.com/in/${process.env.REACT_APP_LINKEDIN}`} target="_blank" rel="noopener noreferrer">
         <img src={linkedin} alt="LinkedIn" />
       </a>
-      <a href="https://x.com/TheophilusNuer1?t=iX8yiuEO0T3metYJT4YHJw&s=09" target="_blank" rel="noopener noreferrer">
+      <a href={`https://x.com/${process.env.REACT_APP_X}`} target="_blank" rel="noopener noreferrer">
         <img src={twitter}alt="Twitter" />
       </a>
-      <a href="https://github.com/theophilusnuer" target="_blank" rel="noopener noreferrer">
+      <a href={`https://github.com/${process.env.REACT_APP_GITHUB}`} target="_blank" rel="noopener noreferrer">
         <img src={github} alt="GitHub" />
       </a>
-      <a href="https://www.instagram.com/theophilusnuer_?igsh=MWVtOHliemY1cm1sbA==" target="_blank" rel="noopener noreferrer">
+      <a href={`https://www.instagram.com/${process.env.REACT_APP_IG}`} target="_blank" rel="noopener noreferrer">
         <img src={instagram} alt="Instagram" />
       </a>
     </div>
