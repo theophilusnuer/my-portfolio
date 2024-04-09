@@ -9,7 +9,7 @@ const experiences: any = [
         logo: mest,
         position: "Web Development Trainee",
         role1: "Led the team to design an interactive ecommerce web app for agro products",
-        style:"shadow-sky-400"
+        style:"shadow-lg shadow-sky-400"
     },
     {
         company: "MTN Ghana",
@@ -17,7 +17,7 @@ const experiences: any = [
         position: "Retail Experience Agent",
         role1: "Analyzed and grouped customer complaints and escalated to backend office for assistance",
         role2: "Built long-term, loyal customer relations by providing top-notch service",
-        style: "shadow-yellow-400"
+        style: "shadow-lg shadow-yellow-400"
     },
     {
         company: "CFA Ghana Society",
@@ -25,7 +25,7 @@ const experiences: any = [
         position: "Global Research Challenge Participant",
         role1: "Analyzed, evaluated and made market recommendation for MTN Ghana",
         role2: "Organized and coordinated team members to complete tasks as the team leader",
-        style: "shadow-indigo-600"
+        style: "shadow-lg shadow-indigo-600"
     }
 ] as const
 

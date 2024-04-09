@@ -15,62 +15,62 @@ const techskills: any = [
     {
         name: "React.js",
         src: react,
-        style: "shadow-sky-600"
+        style: " shadow-lg shadow-sky-600"
     },
     {
         name: "Javascript",
         src: javascript,
-        style: "shadow-yellow-500"
+        style: "shadow-lg shadow-yellow-500"
     },
     {
         name: "Express.js",
         src: express,
-        style: "shadow-gray-300"
+        style: "shadow-lg shadow-gray-300"
     },
     {
         name: "MongoDb",
         src: mongo,
-        style: "shadow-green-700"
+        style: "shadow-lg shadow-green-700"
     },
     {
         name: "CSS",
         src: css,
-        style: "shadow-blue-500"
+        style: "shadow-lg shadow-blue-500"
     },
     {
         name: "HTML",
         src: html,
-        style: "shadow-orange-500"
+        style: "shadow-lg shadow-orange-500"
     },
     {
         name: "Tailwind",
         src: tailwind,
-        style: "shadow-sky-400"
+        style: "shadow-lg shadow-sky-400"
     },
     {
         name: "MUI",
         src: material,
-        style: "shadow-blue-600"
+        style: "shadow-lg shadow-blue-600"
     },
     {
         name: "Node.js",
         src: node,
-        style: "shadow-green-400"
+        style: "shadow-lg shadow-green-400"
     },
     {
         name: "Bootstrap",
         src: bootstrap,
-        style: "shadow-purple-600"
+        style: "shadow-lg shadow-purple-600"
     },
     {
-        name: "Figma",
+        name: "shadow-lg Figma",
         src: figma,
-        style: "shadow-orange-500"
+        style: "shadow-lg shadow-orange-500"
     },
     {
         name: "Jira",
         src: jira,
-        style: "shadow-sky-800"
+        style: "shadow-lg shadow-sky-800"
     }
 ] as const
 export default techskills;

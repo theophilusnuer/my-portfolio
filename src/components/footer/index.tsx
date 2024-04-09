@@ -4,7 +4,7 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <section className="bg-black mt-10">
+        <section className=" mt-10">
             <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-between">
                 <h1 className="text-white ml-5 mt-5 mb-4 text-4xl sm:text-8xl text-center sm:text-left">Let's Connect</h1>
                 <div className="flex justify-center sm:mr-11 mt-5 sm:mt-0">
