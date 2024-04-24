@@ -1,9 +1,17 @@
 import mtn from "../../assets/mtn.svg";
 import cfa from "../../assets/cfa.svg";
 import mest from "../../assets/mest.png";
+import coreX from "../../assets/coreX.png";
 
 
 const experiences: any = [
+    {
+        company: "COREXTREME",
+        logo: coreX,
+        position: "Web Development Intern",
+        role1: "Led the team to design an user friendly admin panel to update requests",
+        style:"shadow-lg shadow-orange-500"
+    },
     {
         company: "MEST AFRICA",
         logo: mest,

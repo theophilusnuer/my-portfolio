@@ -1,8 +1,15 @@
 import tport from "../../assets/tport.jpg";
 import tflix from "../../assets/tflix.png";
-import agro from "../../assets/agro.png"
+import agro from "../../assets/agro.png";
+import badak from "../../assets/badak.jpeg";
 
 const projects: any = [
+    {
+        title: "Badak Admin Panel",
+        logo: badak,
+        description: "Admin User dashboard to update requests statuses",
+        style:"shadow-blue-500"
+    },
     {
         title: "Agro Biz",
         logo: agro,
